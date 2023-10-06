@@ -1,0 +1,32 @@
+.profile-section {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 576px) {
+  .profile-section {
+    display: flex;
+    padding-left: 30px;
+  }
+}
+.profile-filters {
+  display: flex;
+  flex-direction: column;
+}
+.jobs-detail-ul {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 960px;
+  margin-top: 8px;
+}
+.jobs {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+@media (min-width: 576px) {
+  .jobs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
